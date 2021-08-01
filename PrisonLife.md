@@ -1,3 +1,4 @@
+if game.PlaceId == 155615604 then
 -- init
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/GreenDeno/Venyx-UI-Library/main/source.lua"))()
 local venyx = library.new("Prison Life", 5013109572)
@@ -65,3 +66,4 @@ end)
 local but1 = section3:addButton("Remove Doors", function()
     Game.Workspace.Doors:Destroy()
 end)
+end
